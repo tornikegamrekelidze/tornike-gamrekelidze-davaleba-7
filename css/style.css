@@ -1,0 +1,24 @@
+.background {
+	width: 100%;
+	position: relative;
+}
+
+.goalkeeper {
+	position: absolute;
+	top: 32%;
+	left: 47%;
+}
+
+
+.player {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	animation: player 3s infinite;
+}
+
+
+@keyframes player {
+	from {top: 60%;}
+	to   {top: 47%;}
+}
