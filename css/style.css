@@ -14,11 +14,19 @@
 	position: absolute;
 	top: 50%;
 	left: 40%;
-	animation: player 3s infinite;
+	transition: 1s;
 }
 
 
-@keyframes player {
-	from {top: 60%;}
-	to   {top: 47%;}
+
+.ball {
+	width: 200px;
+	height: 200px;
+	position:absolute;
+	top: 47%;
+	left: 47%;
+}
+
+.player:hover {
+	top: 40%;
 }
