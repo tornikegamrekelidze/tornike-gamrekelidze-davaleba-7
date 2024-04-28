@@ -17,6 +17,9 @@
 	transition: 1s;
 }
 
+.player:hover {
+	top: 40%;
+}
 
 
 .ball {
@@ -25,8 +28,17 @@
 	position:absolute;
 	top: 47%;
 	left: 47%;
+	transition: 2s;
 }
 
-.player:hover {
-	top: 40%;
+
+
+.ball:hover {
+	top: 32%;
+
 }
+
+
+
+
+
